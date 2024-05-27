@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Health() {
+const Healthproject = () => {
   return (
     <div>
       <h1>Health</h1>
@@ -17,4 +17,4 @@ function Health() {
   )
 }
 
-export default Health
+export default Healthproject

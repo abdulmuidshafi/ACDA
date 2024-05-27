@@ -1,6 +1,6 @@
 import React from 'react'
 
-function WaterSupply() {
+ const WaterSupply=()=> {
   return (
     <div>
       <h1>WaterSupply</h1>

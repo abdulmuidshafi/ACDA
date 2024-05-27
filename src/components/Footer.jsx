@@ -10,7 +10,7 @@ export default function Footer() {
                             <h2>Contact Us</h2>
                             <a href="https://maps.app.goo.gl/HQg6gMPpAJ445cda6" target="_blank" rel="noopener noreferrer"><p><i className="fa fa-map-marker-alt"></i> AddisAbaba,Etiopia</p></a>
                             <a href="tel:+91-7385223242"><p><i className="fa fa-phone"></i>+251912629057</p></a>
-                            <a href="mailto:ACD.vitswd@vit.ngo"><p><i className="fa fa-envelope"></i>ACDA.vitswd@vit.ngo</p></a>
+                            <a href="mailto:ACDA.vitswd@vit.ngo"><p><i className="fa fa-envelope"></i>ACDA.vitswd@vit.ngo</p></a>
                             <div className="footer-social">
                                 <a className="btn btn-custom" href="https://twitter.com/vit_socials"><i className="fab fa-x-twitter"></i></a>
                                 <a className="btn btn-custom" href="https://www.facebook.com/vitsocials"><i className="fab fa-facebook-f"></i></a>

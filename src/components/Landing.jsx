@@ -13,7 +13,7 @@ export default function Landing() {
                     </div>
                     <div className="titles">
                         <div className="caption2">
-                            <p>At <span>ACD,</span> we work towards the betterment of our <span>world</span> </p>
+                            <p>At <span>ACDA,</span> we work towards the betterment of our <span>world</span> </p>
                         </div>
                         <div className="caption3">
                             <p>Bring out the change in society by spreading hands to help the unprivileged children and other backward communities.</p>

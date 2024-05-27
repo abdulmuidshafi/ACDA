@@ -75,7 +75,7 @@ export default function Navbar() {
             {/* <!-- Nav Bar Start --> */}
             <div className="navbar navbar-expand-lg bg-dark navbar-dark">
                 <div className="container-fluid">
-                    <Link to="/" className="navbar-brand">ACD</Link>
+                    <Link to="/" className="navbar-brand">ACDA </Link>
                     <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -83,8 +83,20 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div className="navbar-nav ml-auto">
                             <Link to="/" className={`nav-item nav-link ${path === '/' ? "active" : ""}`}>Home</Link>
+                            <div className="nav-item dropdown" onMouseEnter={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>
+                                <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Projects</Link>
+                                <div className={dropdownOpen ? "dropdown-menu show" : "dropdown-menu"}>
+                
+                                    <Link to="/education" className="dropdown-item">education</Link>
+                                    <Link to="/health" className="dropdown-item">health</Link>
+                                    <Link to="/rehabilation" className="dropdown-item">rehabilation</Link>
+                                    {/*<hr className='dropdown-divider' />*/}
+                                    <Link to="/water" className="dropdown-item">water supply</Link>
+                                </div>
+                            </div>
                             <Link to="/about" className={`nav-item nav-link ${path === '/about' ? "active" : ""}`}>About</Link>
                             <Link to="/event" className={`nav-item nav-link ${path === '/event' ? "active" : ""}`}>Events</Link>
+ 
                             <div className="nav-item dropdown" onMouseEnter={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>
                                 <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Pages</Link>
                                 <div className={dropdownOpen ? "dropdown-menu show" : "dropdown-menu"}>

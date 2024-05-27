@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Rehabilation() {
+const  Rehabilation=()=> {
   return (
     <div>
       <h1>Rehabilation</h1><p> 
